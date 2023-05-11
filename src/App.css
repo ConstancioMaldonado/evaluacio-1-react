@@ -1,0 +1,37 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+
+}
+.App_title {
+    text-align: center;
+    color: white;
+}
+.App_btn {
+    display: block;
+    padding: 0.5em 1em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    color: rgb(34, 34, 38);
+    border: 2px solid currentColor;
+    border-radius: 0.4em;
+    
+}
+.App_quote {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(234, 233, 232, 50%);
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(246, 246, 246);
+    border-radius: 0.4em;
+    
+}
